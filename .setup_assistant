@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: assignment2
+    relative_path: urdf/robot2_laser.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/robot2_laser_xacro.srdf
+  CONFIG:
+    author_name: Giovanni Di Marco
+    author_email: s5014077@studenti.unige.it
+    generated_timestamp: 1684788444
