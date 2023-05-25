@@ -28,10 +28,10 @@
   <arg name="urdf_path" default="$(find assignment2)/urdf/from_moveit.urdf"/>
 
   <!-- launch the gazebo simulator and spawn the robot -->
-  <include file="$(find m2wr_moveit)/launch/gazebo.launch" >
-    <arg name="paused" value="$(arg paused)"/>
+  <include file="$(find assignment2)/launch/sim_w1.launch" >
+  <!--  <arg name="paused" value="$(arg paused)"/>
     <arg name="gazebo_gui" value="$(arg gazebo_gui)"/>
-    <arg name="urdf_path" value="$(arg urdf_path)"/>
+    <arg name="urdf_path" value="$(arg urdf_path)"/> -->
   </include>
 
   <!-- If needed, broadcast static tf for robot root -->
